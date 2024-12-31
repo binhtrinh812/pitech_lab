@@ -1,0 +1,41 @@
+.AboutUs-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutUs-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutUs-img {
+    width: 85%;
+    object-fit: cover;
+}
+
+.AboutUs-right {
+    width: 50%;
+}
+
+.AboutUs-content {
+    padding-right: 15%;
+    text-align: justify;
+}
+
+.AboutUs-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #3C91E6;
+}
+
+.AboutUs-content p {
+    max-width: 600px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 15px;
+}

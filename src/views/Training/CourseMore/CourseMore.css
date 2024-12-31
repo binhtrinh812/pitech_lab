@@ -1,0 +1,21 @@
+
+.courseMore-title {
+    text-align: center;
+    padding: 80px 0 0px;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.courseMore-title::after {
+    content: '';
+    width: 150px;
+    background: #058E6E;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 8px;
+}
+
+.service-home {
+    position: relative;
+}

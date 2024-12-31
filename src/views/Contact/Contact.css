@@ -1,0 +1,33 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+  padding-bottom: 100px;
+}
+
+.contact-map {
+  width: 40%;
+}
+
+.contact-text {
+  width: 40%;
+}
+
+.contact h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.contact p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.contact p span {
+  font-weight: normal;
+  line-height: 1.5;
+}
+.contact img {
+  width: 270px;
+}

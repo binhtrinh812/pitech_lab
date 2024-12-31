@@ -1,0 +1,77 @@
+.timeLine-container {
+    padding-bottom: 400px;
+}
+
+.timeline {
+    text-align: center;
+}
+
+.timeline .year {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+}
+
+.timeline .year span {
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+.timeline .days {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline .days .day {
+    width: 100%;
+    float: left;
+}
+
+.timeline .days .day .events {
+    position: relative;
+    float: left;
+    padding: 20px;
+    text-align: right;
+    width: 50%;
+}
+
+.timeline .days .day .events .day__img {
+    margin-right: -30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline .days .day .events .day__img img {
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    display: block;
+    float: right;
+    margin-right: 30px;
+    object-fit: cover;
+}
+
+.timeline .days .day:nth-child(odd) .events {
+    width: calc(50% + 1);
+    float: right;
+    border-left: 2px solid #3c91e6;
+    text-align: left;
+    padding-right: 5%;
+}
+
+.timeline .days .day:nth-child(odd) .events .date {
+    left: auto;
+    right: 100%;
+    text-align: right;
+}
+
+.timeline .days .day:nth-child(odd) .events .day__img {
+    margin-right: auto;
+    margin-left: -30px;
+}
+
+.timeline .days .day:nth-child(odd) .events .day__img img {
+    float: left;
+}

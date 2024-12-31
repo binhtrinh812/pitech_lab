@@ -1,0 +1,81 @@
+.blog-top-img {
+  width: 520px;
+  height: 320px;
+}
+
+.blog-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog-top-text {
+  max-width: 500px;
+  padding-left: 50px;
+}
+
+.blog-top-text h6 {
+  width: 124px;
+  height: 32px;
+  font-size: 16PX;
+  color: #1565D8;
+  background-color: rgba(54, 179, 126, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.blog-top-text h1 {
+  font-size: 36PX;
+  color: #000;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.blog-top-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5A7184;
+  padding-bottom: 20px;
+}
+
+.blog-top-text h5 {
+  color: #5A7184;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: right;
+}
+
+.blog-list-title {
+  font-size: 32px;
+  color: #1565D8;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding: 80px 0 0 80px;
+}
+
+.blog-list-title::after {
+  content: "";
+  flex: 1;
+  height: 4px;
+  background-color: #1565D8;
+  margin-left: 10px;
+  max-width: 70px;
+}
+
+/* Fill */
+
+
+
+

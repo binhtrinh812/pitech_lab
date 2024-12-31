@@ -1,0 +1,98 @@
+.aboutUs-container {
+    display: flex;                    
+    flex-direction: column;     
+    align-items: center;
+}
+
+.aboutUs-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.aboutUs-img {
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+}
+
+.aboutUs-img-1 {
+    width: 156px;
+    height: 195px;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.aboutUs-img-2, .aboutUs-img-3 {
+    width: 221px;
+    height: 260px;
+}
+
+.aboutUs-img-4 {
+    margin-top: 20px;
+    width: 104px;
+    height: 104px;
+}
+
+.aboutUs-img img {
+    width: 100%;
+    transition: .3s linear;
+}
+
+.aboutUs-img img:hover {
+    scale: 1.01;
+    box-shadow: 0 0 10px rgba(5, 142, 110, 0.3);
+}
+
+.aboutUs-img-item:nth-child(2) {
+    padding-left: 30px;
+}
+
+.aboutUs-content {
+    width: 600px;
+    padding-left: 5%;
+}
+
+.aboutUs-content h6 , .aboutUs-content h1 {
+    padding-bottom: 20px;
+}
+.aboutUs-content h6 {
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+}
+
+.aboutUs-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.aboutUs-content p {
+    font-size: 16px;
+    font-weight: 400;;
+    color: #000;
+    text-align: justify;
+    padding-bottom: 35px;
+}
+
+.aboutUs-content a {
+    font-size: 16px;
+    font-weight: 500;;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 8px;
+    border: 3px inset #000;
+    transition: 0.3s linear;
+
+}
+
+.aboutUs-content a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    color: #000;
+
+}
